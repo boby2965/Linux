@@ -1,0 +1,108 @@
+Shell Scripting
+---------------
+Kernel:
+    A kernel is at the core of the computer. It makes the communication between the hardware and software possible. While the kernel 
+    is the innermost part of an operating system, a shell is the outermost part.
+
+Shell:
+    A shell is a linux operating system  which takes input from you in the form of commands, processes it, and then gives an output.
+    It is  the interface through which a user works on the programs, commands, and scripts. A shell is accessed by a termainal 
+    which runs it. (Command Interpeter)
+        ex: bash shell, cron shell etc,.
+
+Shell script:
+    A shell script is a text file that contains a sequence of commands for a UNIX-based operating system. It is called a shell script 
+    because it combines a sequence of commands, that would otherwise have to be typed into the keyboard one at a time, into a 
+    single script.
+        ex: filename.sh 
+
+        Note:
+            "sh" command can execute a file even when the file dosen't have a execute perimission.
+
+    $sh Test.sh     --> To execute the sell script 
+
+    echo --> display messages 
+
+    VI Editor:
+    ---------
+    insert  --> to change to insert mode
+    ESC     --> exit from insert mode 
+    wq!     --> save & exit 
+    r!      --> exit without saving 
+
+    read    --> reads input from the user 
+
+    Arthematic operators:
+    --------------------
+    +       - Addition
+    -       - Subtraction
+    \*      - Multiplication
+    /       - Division
+    %       - Modulo 
+    
+    If a=20 and b=10 then to add them we use
+       `expr $a + $b`
+
+        ` (Ascend) this is to be used 
+        ' This is not correct 
+
+    Relational & and Logical Operators 
+    --------------------------------
+         -gt        - Greater Than              (>)
+         -lt        - Less Than                 (<)
+         -ge        - Greater then or equal to  (>=)
+         -le        - Less than or equral to    (<=)
+         -eq        - equal to                  (=)
+         -ne        - Not equal to              (!=)
+
+         -a         - And 
+         -o         - Or 
+         -n         - Not 
+
+    Conditional Statements:
+    -----------------------
+    simple if 
+    if..else..if 
+    nested if 
+
+        simple if:
+        ---------
+            if [condition]
+            then 
+                STATEMENT 1 
+                STATEMENT 2
+                -----
+            else 
+                STATEMENT F 
+            fi 
+
+        if..else..if:
+        ------------
+            if [condition1]
+            then 
+                Statement 1
+                statement 2
+            else 
+            if [condition2]
+            then 
+                statement 3
+                statement 4
+            fi
+            fi
+        
+        Nested if:
+        ----------
+            if [condition1]
+            then 
+                Statement 1
+                 if [condition1]
+                then 
+                    Statement 1
+                    statement 2
+                else
+                    statement 4
+                fi
+            else
+                statement 4
+            fi
+

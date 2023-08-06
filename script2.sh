@@ -1,0 +1,1 @@
+echo HI this is my first shell script!
