@@ -106,3 +106,64 @@ Shell script:
                 statement 4
             fi
 
+    Test command:
+    -------------
+    - test command is used with if command 
+    - test is used as part of the conditional execution of shell command. 
+    - It checks the existance of a file, directory, file perimissions and existance of contents in a file.
+    syntax:
+        if test -option variable 
+        then 
+        statement 
+        else 
+        statement 
+        fi 
+
+    option                     usage 
+    ------          ------------------------
+     -f             ordinary file  then true 
+     -d             directory then true 
+     -r             readable file then true 
+     -w             writable file then true 
+     -x             executable file then true
+     -s             size is greater than zero then true 
+
+    case statement:
+    --------------
+        case variable in
+        choice 1)
+            statement 1 
+            statement 2 
+        ;; 
+        choice 2) 
+            statement 3 
+            statement 4
+        ;; 
+        *) 
+            statement 5
+            statement 6
+        esac 
+
+    Loops:
+    ------
+    for loop 
+    while loop 
+
+    while loop:
+    ----------
+        while [condition]
+        do 
+        statement 1
+        statement 2
+        ----
+        done 
+    
+    for loops:
+    ---------
+        for varible in list of values
+        do 
+        statement 1
+        statement 2
+        done 
+        
+
