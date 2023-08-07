@@ -165,5 +165,3 @@ Shell script:
         statement 1
         statement 2
         done 
-        
-
